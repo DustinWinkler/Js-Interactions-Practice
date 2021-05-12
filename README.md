@@ -7,4 +7,4 @@ I made
 2) a basic mobile layout that can "change tabs", displaying a different section of content
 3) an image slider that scrolls through images, fading the outgoing image to the left or right based on where it is in the list.
 
-[Live Preiview]()
+[Live Preiview](https://jalcyon.github.io/Js-Interactions-Practice/)
