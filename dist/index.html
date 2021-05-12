@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="dropdown-container">
+    <h1>Nav Dropdowns</h1>
+    <h2>WEBDEV TUTORIALZ</h2>
+    <nav>
+      <ul id="navbar">
+        <li id="html">
+          <h3>HTML <span id="triangle1" class="triangle">▷</span></h3>
+          <div class="dropdown-list">
+            <p>ELEMENTS</p>
+            <p>SEMANTICS</p>
+            <p>OTHER STUFF</p>
+          </div>
+        </li>
+
+        <li id="css">
+          <h3>CSS <span id="traingle2" class="triangle">▷</span></h3>
+          <div class="dropdown-list">
+            <p>SELECTORS</p>
+            <p>PSEUDO SELECTORS</p>
+            <p>DESIGN</p>
+          </div>
+        </li>
+
+        <li id="javascript">
+          <h3>JavaScript <span id="triangle3" class="triangle">▷</span></h3>
+          <div class="dropdown-list">
+            <p>OOP</p>
+            <p>FUNCTIONAL PROGRAMMING</p>
+            <p>BRAIN HURTY</p>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="mobile-menu-container">
+    <h1>Mobile Menu</h1>
+    <nav id="mobile-nav">
+      <div id="photos-nav" class="selected">Photos</div>
+      <div id="videos-nav" class="">Videos</div>
+      <div id="news-nav">News</div>
+      <div id="memes-nav">Memes</div>
+    </nav>
+
+    <div id="mobile-content">
+      <div id="photos-content" class="mobile-content-div">
+        <p>Here is a nice cat</p>
+        <img src="https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg" alt="">
+
+        <p>Here is another nice cat</p>
+        <img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="">
+
+        <p>And another</p>
+        <img src="https://static.scientificamerican.com/sciam/cache/file/92E141F8-36E4-4331-BB2EE42AC8674DD3_source.jpg" alt="">
+
+      </div>
+
+      <div id="videos-content" class="mobile-content-div hidden">
+        <p>Here is a cute cat video</p>
+        <iframe width="350" height="195" src="http://www.youtube.com/embed/uHKfrz65KSU" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+
+        <p>Here is another cute cat video</p>
+        <iframe width="350" height="195" src="http://www.youtube.com/embed/tpiyEe_CqB4" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+
+        <p>And another</p>
+        <iframe width="350" height="195" src="http://www.youtube.com/embed/XAXwmMu8otM" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+      </div>
+
+      <div id="news-content" class="mobile-content-div hidden">
+        <p>Pet Cats fall for Optical Illusions too (NPR)</p>
+        <img src="https://media.npr.org/assets/img/2021/05/07/ash-cat_wide-7d967b160a700000e5fcf23348b182d5d92fa02f-s800-c85.webp" alt="">
+        <p>Ash the cat selects the Kanizsa square stimulus — in other words, the illusion of a square — in a new study in which pet owners provided the data.</p>
+
+        <p>Animal Rescue Has Released 1,000 Feral Cats into Chicago's Streets to Combat City's Rat Problem (People)</p>
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2021%2F05%2F10%2Fferal-cats-2.jpg" alt="">
+        <p>The Tree House Humane Society's Cats at Work program is helping Chicago residents find an environmentally friendly, feline solution to handling the city's numerous rats</p>
+      </div>
+
+      <div id="memes-content" class="mobile-content-div hidden">
+        <img src="https://filmdaily.co/wp-content/uploads/2020/05/cat-memes-lede.jpg" alt="">
+        <img src="https://filmdaily.co/wp-content/uploads/2020/04/lede-cat-memes.jpg" alt="">
+        <img src="https://i.pinimg.com/originals/0b/a9/7c/0ba97c5ff7a1ffeadb4c25f848adf3ba.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <div id="image-slider-container">
+
+    <h1>Image Slider</h1>
+
+    <div id="image-left">
+      <svg height="20" width="20" viewBox="0 0 21 41"><path d="M20.3 40.8L0 20.5 20.3.2l.7.7L1.3 20.5 21 40.1z"></path></svg>
+    </div>
+
+    <div id="image-right">
+      <svg height="20" width="20" viewBox="0 0 21 41"><path d="M20.3 40.8L0 20.5 20.3.2l.7.7L1.3 20.5 21 40.1z"></path></svg>
+    </div>
+
+    <div id="image-dots">
+      <div class="dot">
+        <div class="inner-dot"></div>
+      </div>
+      <div class="dot">
+        <div class=""></div>
+      </div>
+      <div class="dot">
+        <div class=""></div>
+      </div>
+      <div class="dot">
+        <div class=""></div>
+      </div>
+    </div>
+
+    <div id="images">
+      <div class="image">
+        <img src="https://static.wixstatic.com/media/78234d_342a1d1347ca49c09dc63cde5743ac54~mv2.jpg/v1/fill/w_959,h_599,al_t,q_85,usm_0.66_1.00_0.01/78234d_342a1d1347ca49c09dc63cde5743ac54~mv2.webp" alt="">
+      </div>
+
+      <div class="image hidden-image">
+        <img src="https://static.wixstatic.com/media/78234d_118f61b5adbb47129158f17ed6b96861~mv2.jpg/v1/fill/w_959,h_599,al_t,q_85,usm_0.66_1.00_0.01/78234d_118f61b5adbb47129158f17ed6b96861~mv2.webp" alt="">
+      </div>
+
+      <div class="image hidden-image">
+        <img src="https://static.wixstatic.com/media/78234d_5b71e503ebed42b4ad0a5c9b0a6ee6a9~mv2.jpg/v1/fill/w_959,h_599,al_b,q_85,usm_0.66_1.00_0.01/78234d_5b71e503ebed42b4ad0a5c9b0a6ee6a9~mv2.webp" alt="">
+      </div>
+
+      <div class="image hidden-image">
+        <img src="https://static.wixstatic.com/media/78234d_2a6611995d9b4c5c8b2051d0f9f9e0eb~mv2.jpg/v1/fill/w_959,h_599,al_t,q_85,usm_0.66_1.00_0.01/78234d_2a6611995d9b4c5c8b2051d0f9f9e0eb~mv2.webp" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="main.js"></script>
+</body>
